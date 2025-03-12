@@ -1,0 +1,35 @@
+name: NRES_710
+output_dir: '.'
+navbar:
+  title: NRES 710
+  left:
+  - text: Syllabus
+    href: index.html
+  - text: Schedule
+    href: schedule.html
+  - text: Exercises
+    menu:
+    - text: Exercise 1 - Linear Regression
+      href: exercise_1.html
+    - text: Exercise 2 - Linear Regression (cont.)
+      href: exercise_2.html
+    - text: Exercise 3 - Analysis of Categorical Data
+      href: exercise_3.html
+    - text: Exercise 4 - Multi-variable Analysis - Collinearity
+      href: exercise_4.html 
+    - text: Exercise 5 - Multi-variable Analysis - Interactions
+      href: exercise_5.html
+    - text: Exercise 6 - Mixed Effects Models
+      href: exercise_6.html
+    - text: Exercise 7 - Nested Designs
+      href: exercise_7.html
+    - text: Exercise 8 - Generalized Linear Models
+      href: exercise_8.html 
+  - text: More Resources
+    menu:
+    - text: Links 
+      href: Links.html
+output:
+  html_document:
+    lib_dir: site_libs
+    self_contained: no

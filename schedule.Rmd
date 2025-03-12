@@ -1,0 +1,29 @@
+---
+title: "Schedule"
+author: "NRES 710 -- Fall 2024"
+date: "Last compiled: `r Sys.Date()`"
+output: 
+  html_document: 
+    theme: yeti
+    toc: no
+    toc_float: no
+    css: styles.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Schedule
+
+```{r load_data, include=FALSE}
+courseSchedule <- read.csv("schedule.csv")
+```
+
+```{r make_table, results='asis', echo=FALSE}
+knitr::kable(courseSchedule, caption="", col.names = c("Week", "Dates",
+                                                       "Tuesday",
+                                                       "Thursday",
+                                                       "Assignments"))
+```
+

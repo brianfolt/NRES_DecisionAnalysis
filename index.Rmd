@@ -1,0 +1,273 @@
+---
+title: "NRES 710: Graduate Environmental Statistics"
+author: "**Fall 2024**"
+date: "**Last compiled: `r Sys.Date()`**"
+output:
+  html_document:
+    theme: yeti
+    toc: yes
+    toc_float: yes
+    css: styles.css
+---
+
+### Instructor
+
+[Dr. Brian Folt](https://www.unr.edu/nvcfwru/folt-brian) (he/him)<br>
+Office: Knudsten Resource Center, Room 100A<br>
+Email: [bfolt@unr.edu](bfolt@unr.edu)
+
+I have no pre-scheduled office hours for this class; instead, please email me to set up a meeting. In general, I will be in my office during working hours from ca. 8AM--5PM and can be available to discuss course material.
+
+### Course Meeting Times
+
+**Lecture**: Tuesdays and Thursdays, 1:30--2:45pm, EJCH 202 (Edmund J Cain Hall)
+
+**Course Website**: [http://brianfolt.github.io/NRES_710/](http://brianfolt.github.io/NRES_710/)
+
+### Course Objectives
+
+In this course, students will learn basic principles of statistical inference and will gain experience applying these principles to their research questions using the open-source statistical program [R](https://www.r-project.org/) with [RStudio](https://posit.co/download/rstudio-desktop/). We will focus on concepts and implementation and in general will leave the nitty-gritty statistics details to other, more focused statistics classes.
+
+### Student Learning Objectives
+
+Students will be able to:
+
+1. Understand and apply the linear regression model to perform various statistical tests (e.g., linear regression, t-tests, ANOVA, ANCOVA, and general multi-variable models).
+2. How to clearly communicate results from statistical tests.
+3. Understand and communicate assumptions associated with classic statistical models, and the consequences of assumption violation.
+4. Practical approaches to model selection.
+5. Practical approaches to import data, visualize patterns, interpret plots, and perform statistical tests using R.
+
+### Prerequisites
+
+Curious scientific mind, broad research interests, and readiness to engage with data, equations, and computer programming. Students are expected to have a basic understanding of standard statistical concepts and methods, obtained through other coursework. If this is not the case, they should be prepared to work hard to develop the necessary prerequisite knowledge.
+
+### Course Materials
+
+We will use the course website and a WebCampus page set up for the course. Most course content (lecture materials) will be made available on the course website. The course website will be updated frequently to include lecture materials after they are presented in class and other material actively being developed for class. Occasional course readings will be available on the course website. The Discussion Board feature is available in WebCampus as a forum for discussion, Q&A, and mutual support in engaging with course materials outside of regular class meetings.
+
+Readings will be provided on the course website; the papers should be read prior to the class date indicated in the schedule.
+
+Students will use the open-source statistical program R to perform analyses. **All students should bring laptops to each class**, as much of class time will be devoted to hands-on learning in R.
+
+There are many good books about R, but ultimately, most material can be found for free online. For the beginner in statistics or R, I recommend the following:
+
+1.	Discovering Statistics using R (Andy Field and Jeremy Miles)
+2.  [R for data science (version 2)](https://r4ds.hadley.nz/) (Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund). This book is available for free online at the website linked here.
+3.	Introductory R: a beginner’s guide to data visualization, statistical analysis, and programming in R (Robert Knell)
+4.	[R Graphics Cookbook](https://r-graphics.org/) (Winston Chang). This book is available for free online. 
+4.	Qian, Song S. Environmental and Ecological Statistics with R, Second Edition, 2nd Edition. Chapman & Hall, 2017. 
+5.  A Primer of Ecological Statistics. (Nicholas Gotelli and Aaron Ellison). *A stats book, but not an R book.* 
+
+### Course Structure
+
+Instruction will consist of lessons on general statistical concepts and specific methods commonly used to address questions in ecology and environmental science. Stats lessons will include lecture-style materials, readings, demonstrations, exercises and class discussions.   
+
+A large portion of the overall grade (60%) will be based upon periodic, relatively brief homework assignments ('**Exercises**'; *n* = 8) that follow from the topics covered in class. Most exercise assignments will involve statistical analysis and interpretation of sample data sets that are provided. We will use classtime for students to work on the Exercises on their computers, either individually or in small groups (2-3 people). You can show me the results of your Exercises and I will give you credit for completing the assignment. If you are unable to finish the assignment during class or are unable to make class during an Exercise day, you have one week to complete and submit the assignment via WebCampus/email (TBD). More specific instructions will come during the semester and I will update this here for clarity. 
+
+There will be periodic **Quizzes** (*n* = 6) throughout the semester that will comprise 20% of the grade and which will be administered through WebCampus. Quiz due dates are indicated on the course schedule.
+
+Students will be graded on **Participation** (20%). As this is a graduate-level class, engagement and participation during class, discussions, exercise labs, and other course-related opportunities is expected and students will be given a grade on their participation.
+
+Last, an extra-credit opportunity is available to students by participating in '[StatsChats](https://guides.library.unr.edu/StatsChats)'. StatsChats is an informal weekly gathering to discuss any quantitative questions you may have related to your research (statistics, experimental design, model simulation, analysis, debugging R code, etc.). This is open to any students and faculty that want to improve their their quantitative skills and/or share their knowledge and experience. StatsChats will be weekly on Tuesdays (starting September 3) from 12-1PM in the Lilli Brant reading room in the DeLaMare Science and Engineering Library (third floor). Students will gain **+10%** credit to their overall class grade **if they attend four (4) out of the ten total StatsChats sessions during the semester**.
+
+There will be no **final exam** for the class.
+
+### Grading
+
+|Course component                | Weight                                   |
+|--------------------------------|------------------------------------------|
+|Exercises                       |	60%                                     |
+|Quizzes                         |	20%                                     |
+|Participation                   |  20%                                     |
+|Extra credit: Attend 4 StatChats|  +10%                                    |
+
+Letter grades will be assigned as follows:	
+
+|Grade                           | Semester Average (%)                      |
+|--------------------------------|-------------------------------------------|
+|A                               |	90--100                                  |
+|B                               |	80--89                                   |
+|C                            	 |  70--79                                   |
+|F                               |	below 70                                 |
+
+### Course Schedule
+
+The course schedule can be found [Course Schedule](schedule.html). The course schedule is subject to change, so please check back frequently; I will also provide verbal updates to the schedule during class sessions. 
+
+### Make-up Policy and Late Work
+
+If you miss a class meeting or lab period, it is your responsibility to talk to one of your classmates about what you missed. If you miss a lab activity, you are still responsible for completing the lab activities and write-up on your own time. You do not need to let me know in advance that you are going to miss class or lab.
+
+### Students with Disabilities
+
+Any student with a disability that needs academic adjustments or accommodations is requested to speak with the Disability Resource Center (Thompson Building, Suite 101) as soon as possible to arrange for appropriate accommodations.
+
+### Statement on Academic Dishonesty
+
+Cheating, plagiarism, or otherwise obtaining grades under false pretenses constitute academic dishonesty according to the code of this university. Plagiarism is using the ideas or words of another person without giving credit to the original source; this includes copying another student in class. Always cite the source of your information. This includes copying or paraphrasing from a book, journal, or unpublished material without giving credit to the author(s), and submitting a term paper that was used in another course. Academic dishonesty will not be tolerated and penalties can include filing a final grade of "F"; reducing the student's final course grade one or two full grade points; awarding a failing mark on the coursework in question; or requiring the student to retake or resubmit the coursework. For more details, see the [University of Nevada, Reno General Catalog](http://catalog.unr.edu/).
+
+### Use of Generative Artificial Intelligence (AI) in Assignments
+
+This course assumes that all work submitted by students -- which includes all process work, drafts, brainstorming artifacts, final works -- will be generated by the students themselves, working individually or in groups as directed by course assignment instructions. This policy indicates the following constitute violations of academic honesty and “cheating”: any unauthorized use of generative AI tools (such as ChatGPT), as outlined in UNR Academic Integrity Policy (UAM 6,502).
+
+Some assignments may allow for the use of the authorized use of such tools, but will be expressly described in the assignment instructions. For the purposes of those assignments, specific instructions will be provided on the use of generative AI tools regarding the type of work being allowed (i.e. brainstorming, drafts, final works, etc.). Please email the instructor for any questions or concerns.
+
+Generative AI tools have become extremely accessible and, in certain instances, can be useful for data analysis. However, I believe it is important that the students in this class develop a deep, foundational understanding of the concepts covered here. To fully benefit from the course, I strongly encourage you to complete all assignments without relying on AI-generated solutions. This will not only help you grasp the material more effectively, but also ensure that you can confidently apply these techniques in real-world scenarios (e.g., your graduate thesis or dissertation) without external assistance. Mastering these skills now will provide you with a solid foundation for your graduate research and your future career as a scientist or practitioner. I promise that the course content will not be so overwhelming as to require external help from generative AI. We may explore using AI to assist with coding toward the end of the semester.
+
+### Statement on Audio and Video Recording
+
+Surreptitious or covert video-taping of class or unauthorized audio recording of class is prohibited by law and by Board of Regents policy. This class may be videotaped or audio recorded only with the written permission of the instructor. In order to accommodate students with disabilities, some students may have been given permission to record class lectures and discussions. Therefore, students should understand that their comments during class may be recorded.
+
+### Statement on Content Accessibility
+
+This course may leverage 3rd party web/multimedia content; if you experience any issues accessing this content, please notify your instructor.
+
+### Failure to Comply with Policy (including as outlined in this Syllabus) or Directives of a University Employee
+
+In accordance with section 6,502 of the University Administrative Manual, a student may receive academic and disciplinary sanctions for failure to comply with policy, including this syllabus, for failure to comply with the directions of a University Official, for disruptive behavior in the classroom, or any other prohibited action. “Disruptive behavior" is defined in part as behavior, including but not limited to failure to follow course, laboratory or safety rules, or endangering the health of others. A student may be dropped from class at any time for misconduct or disruptive behavior in the classroom upon recommendation of the instructor and with approval of the college dean. A student may also receive disciplinary sanctions through the Office of Student Conduct for misconduct or disruptive behavior, including endangering the health of others, in the classroom. The student shall not receive a refund for course fees or tuition.
+
+### Statement on Academic Dishonesty
+
+"The University Academic Standards Policy defines academic dishonesty, and mandates specific sanctions for violations. See the University Academic Standards policy: UAM 6,502."
+
+### Statement of Disability Services
+
+Use either the traditional or online statement, in addition to the last sentence regarding third party materials.
+
+### For Traditional and Seated Classrooms
+
+“Any student with a disability needing academic adjustments or accommodations is requested to speak with me or the Disability Resource Center (Pennington Achievement Center Suite 230) as soon as possible to arrange for appropriate accommodations.”
+
+### This is a Safe Space
+
+The University of Nevada, Reno is committed to providing a safe learning and work environment for all. If you believe you have experienced discrimination, sexual harassment, sexual assault, domestic/dating violence, or stalking, whether on or off campus, or need information related to immigration concerns, please contact the University's Equal Opportunity & Title IX Office at 775-784-1547. Resources and interim measures are available to assist you. For more information, please visit: http://www.unr.edu/equal-opportunity-title-ix"
+
+### Statement on Maintaining a Safe Learning and Work Environment
+
+The University of Nevada, Reno is committed to providing a safe learning and work environment for all. If you believe you have experienced discrimination, sexual harassment, sexual assault, domestic/dating violence, or stalking, whether on or off campus, or need information related to immigration concerns, please contact the University's Equal Opportunity & Title IX office at 775-784-1547. Resources and interim measures are available to assist you. For more information, please visit the Equal Opportunity and Title IX page.
+
+### Statement for Academic Success Services
+
+Your student fees cover usage of the University Math Center (https://www.unr.edu/university-math-center), (775) 784-4433; University Tutoring Center (https://www.unr.edu/tutoring-center), (775) 784-6801; and University Writing & Speaking Center (https://www.unr.edu/writing-speaking-center), (775) 784-6030. These centers support your classroom learning; it is your responsibility to take advantage of their services. Keep in mind that seeking help outside of class is the sign of a responsible and successful student.
+
+### Download the Syllabus
+
+Downloadable copies of syllabus as a [Word Document](syllabus.docx).
+
+Downloadable copies of syllabus as a [PDF](syllabus.pdf).
+
+```{r echo=FALSE, eval=FALSE}
+## Manually run these lines through console to turn the RMD into DOCX or PDF
+rmarkdown::render('index.Rmd', output_file = 'syllabus.docx', 'word_document')
+rmarkdown::render('schedule.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_1.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_2.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_3.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_4.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_5.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_6.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_7.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_8.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_9.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_10.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_11.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_12.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_13.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_14.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_15.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_16.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_17.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_18.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_19.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_20.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_21.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_GLM1.Rmd', 'word_document')
+rmarkdown::render('materials_/lecture_GLM2.Rmd', 'word_document')
+
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
+rmarkdown::render('index.Rmd', output_file = 'syllabus.pdf', rmarkdown::pdf_document())
+rmarkdown::render('schedule.Rmd', rmarkdown::pdf_document())
+
+# ### Commented these below b/c I prefer how the Word Doc looks (larger font size)
+# rmarkdown::render('lecture_1.Rmd', rmarkdown::pdf_document())
+# rmarkdown::render('lecture_2.Rmd', rmarkdown::pdf_document())
+# rmarkdown::render('lecture_3.Rmd', rmarkdown::pdf_document())
+```
+
+```{r echo=FALSE}
+### Function to convert RMD files to R scripts
+rmd2rscript <- function(infile = "LECTURE2.Rmd", outdir = ".") {
+  # Extract only the filename from infile
+  outfile <- file.path(outdir, gsub(".Rmd", ".R", basename(infile)))
+  
+  # Ensure the output directory exists
+  if (!dir.exists(outdir)) {
+    stop("The specified output directory does not exist: ", outdir)
+  }
+  
+  # Clear output file
+  close(file(outfile, open = "w"))
+  
+  con1 <- file(infile, open = "r")
+  con2 <- file(outfile, "w")
+  stringToFind <- "```{r*"
+  stringToFind2 <- "echo"
+  isrblock <- FALSE
+  blocknum <- 0
+  
+  while (length(input <- readLines(con1, n = 1)) > 0) { # while there are still lines to be read
+    isrblock <- grepl(input, pattern = stringToFind, perl = TRUE) # is it the start of an R block?
+    showit <- !grepl(input, pattern = stringToFind2, perl = TRUE) # is it hidden (echo=FALSE)
+    if (isrblock) {
+      blocknum <- blocknum + 1
+      while (!grepl(newline <- readLines(con1, n = 1), pattern = "```", perl = TRUE)) {
+        if ((blocknum > 1) & ((showit) | (blocknum == 2))) {
+          write(newline, file = con2, append = TRUE)
+        }
+      }
+      isrblock <- FALSE
+    }
+  }
+  closeAllConnections()
+}
+
+```
+
+```{r echo=FALSE, eval=FALSE}
+## Manually run these lines through console to turn the RMD to R scripts
+rmd2rscript(infile = "./materials_/lecture_2.Rmd", outdir = "datasets/")
+rmd2rscript(infile = "./materials_/lecture_3.Rmd", outdir = "datasets/")
+rmd2rscript(infile = "./materials_/lecture_4.Rmd", outdir = "datasets/")
+rmd2rscript(infile = "./materials_/lecture_5.Rmd", outdir = "datasets/")
+rmd2rscript(infile = "./materials_/lecture_6.Rmd", outdir = "datasets/")
+rmd2rscript(infile = "./materials_/lecture_7.Rmd", outdir = "datasets/")
+rmd2rscript(infile = "./materials_/lecture_8.Rmd", outdir = "datasets/")
+rmd2rscript(infile = "./materials_/lecture_9.Rmd", outdir = "datasets/")
+rmd2rscript(infile = "./materials_/lecture_10.Rmd", outdir = "datasets/")
+rmd2rscript(infile = "./materials_/lecture_11.Rmd", outdir = "datasets/")
+rmd2rscript(infile = "./materials_/lecture_12.Rmd", outdir = "datasets/")
+rmd2rscript(infile = "./materials_/lecture_13.Rmd", outdir = "datasets/")
+#rmd2rscript(infile = "./materials_/lecture_14.Rmd", outdir = "datasets/") # no rmd script for lecture 14
+rmd2rscript(infile = "./materials_/lecture_15.Rmd", outdir = "datasets/")
+rmd2rscript(infile = "./materials_/lecture_16.Rmd", outdir = "datasets/")
+rmd2rscript(infile = "./materials_/lecture_17.Rmd", outdir = "datasets/")
+rmd2rscript(infile = "./materials_/lecture_18.Rmd", outdir = "datasets/")
+rmd2rscript(infile = "./materials_/lecture_19.Rmd", outdir = "datasets/")
+#rmd2rscript(infile = "./materials_/lecture_20.Rmd", outdir = "datasets/") # no r code
+#rmd2rscript(infile = "./materials_/lecture_21.Rmd", outdir = "datasets/") # no r code
+rmd2rscript(infile = "./materials_/lecture_GLM.Rmd", outdir = "datasets/")
+
+```
+
+```{r echo=FALSE, eval=FALSE}
+
+# to embed html
+<!--html_preserve-->
+<div>
+    <div>
+       <h1>Courses &amp; Teaching</h1>
+    </div>
+</div>
+<!--/html_preserve-->
+```
