@@ -1,6 +1,6 @@
 ---
-title: "NRES 710: Graduate Environmental Statistics"
-author: "**Fall 2024**"
+title: "NRES 710: Decision Analysis for Natural Resource Management"
+author: "**Fall ####**"
 date: "**Last compiled: `r Sys.Date()`**"
 output:
   html_document:
